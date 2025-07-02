@@ -280,7 +280,7 @@ const BirthdayCelebrationSite = () => {
                   onChange={(e) =>
                     setNewMessage((prev) => ({ ...prev, name: e.target.value }))
                   }
-                  className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all placeholder:text-gray-500"
                   placeholder="Enter your name"
                 />
               </div>
@@ -297,7 +297,7 @@ const BirthdayCelebrationSite = () => {
                     }))
                   }
                   rows={4}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all resize-none"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all resize-none placeholder:text-gray-500"
                   placeholder="Write your birthday wishes..."
                 />
               </div>
