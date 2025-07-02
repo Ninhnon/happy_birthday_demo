@@ -10,6 +10,7 @@ import {
   Calendar,
   MapPin,
   Clock,
+  Flame,
 } from "lucide-react";
 
 interface Message {
@@ -148,6 +149,21 @@ const BirthdayCelebrationSite = () => {
                 Turning {celebrantInfo.age}
               </span>
             </div>
+          </div>
+
+          {/* Birthday Cake Button */}
+          <div className="mt-8">
+            <a
+              href={`https://birthday-cake-mu.vercel.app/?name=${encodeURIComponent(
+                celebrantInfo.name
+              )}&shared=true`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+            >
+              <Flame className="w-6 h-6" />
+              <span>🎂 Blow Birthday Candles!</span>
+            </a>
           </div>
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-pink-50 to-transparent"></div>
