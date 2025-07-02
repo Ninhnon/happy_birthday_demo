@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Johnson",
+    "message": "Happy Birthday! Wishing you all the joy and happiness in the world! 🎉",
+    "time": "2 hours ago",
+    "avatar": "SJ",
+    "timestamp": "2024-01-15T10:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Michael Chen",
+    "message": "Hope your special day is filled with laughter, love, and lots of cake! 🎂",
+    "time": "5 hours ago",
+    "avatar": "MC",
+    "timestamp": "2024-01-15T07:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Ninh Nguyen",
+    "message": "Nice to have",
+    "time": "Just now",
+    "avatar": "NN",
+    "timestamp": "2025-07-02T04:32:27.557Z"
+  }
+]
